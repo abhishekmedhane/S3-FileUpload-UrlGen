@@ -1,6 +1,6 @@
 # File upload to AWS S3
 
-This packge can be used to upload file in s3.
+This packge can be used to upload file in s3 and get file generated url.
 
 ## Steps to use package
 
@@ -32,4 +32,10 @@ response = uploadGenrateUrl.s3UploadGenURL("b64EncodedData","filename.ext","buck
 print(json.loads(response)) # {"img_url": "s3_file_url"}
 
 print(json.loads(response)[img_url]) # will print s3_file_url
+```
+
+##### Note:
+
+```
+Before using the response convert it to json `json.loads(response)`. because package returing stringified json.
 ```

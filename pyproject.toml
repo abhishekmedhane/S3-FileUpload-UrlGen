@@ -1,6 +1,6 @@
 [build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 [project]
 name = "fileUploadS3_x21182787"
@@ -19,5 +19,5 @@ classifiers = [
 dependencies = ["boto3"]
 
 [project.urls]
-"Homepage" = "https://github.com/pypa/sampleproject"
-"repository" = "https://github.com/pypa/sampleproject"
+"Homepage" = "https://github.com/abhishekmedhane/S3-FileUpload-UrlGen"
+"repository" = "https://github.com/abhishekmedhane/S3-FileUpload-UrlGen"
