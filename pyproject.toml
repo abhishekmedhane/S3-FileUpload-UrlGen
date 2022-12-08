@@ -17,3 +17,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = ["boto3"]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"repository" = "https://github.com/pypa/sampleproject"
